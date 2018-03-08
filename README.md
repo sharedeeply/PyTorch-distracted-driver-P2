@@ -31,9 +31,9 @@
 
 如果你无法访问 kaggle 的网站，可以通过[百度云](https://pan.baidu.com/s/1BvFjIDkwFgM7B5vvzK3EsA)上进行下载
 
-数据下载完成之后，将本仓库下载到本地，在主目录中创建一个dataset的文件夹，然后将下载文件中的 `imgs.zip` 和 `driver_imgs_list.csv.zip` 放到dataset 中
+数据下载完成之后，将本仓库下载到本地，在主目录中创建一个`dataset` 的文件夹，然后将下载文件中的 `imgs.zip` 和 `driver_imgs_list.csv.zip` 放到dataset 中
 
-### Mac和linux用户
+### Mac和Linux用户
 
 打开终端，进入到仓库目录，运行bash脚本
 

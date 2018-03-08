@@ -20,14 +20,21 @@ def reorg_data(train_dir, valid_dir, valid_ratio):
     num_valid_per_class = math.floor(min_num_per_class * valid_ratio)
 
     for cls in os.listdir(train_dir):
-        valid_idx = np.random.choice(os.listdir(os.path.join(train_dir, cls)),
-                                     size=num_valid_per_class, replace=False)
+        valid_idx = np.random.choice(
+            os.listdir(os.path.join(train_dir, cls)),
+            size=num_valid_per_class,
+            replace=False)
         if not os.path.exists(os.path.join(valid_dir, cls)):
             os.mkdir(os.path.join(valid_dir, cls))
 
         for every_idx in valid_idx:
-            shutil.move(os.path.join(train_dir, cls, every_idx), os.path.join(valid_dir, cls, every_idx))
+            shutil.move(
+                os.path.join(train_dir, cls, every_idx),
+                os.path.join(valid_dir, cls, every_idx))
 
 
 if __name__ == '__main__':
-    reorg_data(train_dir='../dataset/train', valid_dir='../dataset/valid', valid_ratio=0.1)
+    reorg_data(
+        train_dir='./dataset/train',
+        valid_dir='./dataset/valid',
+        valid_ratio=0.1)
