@@ -31,23 +31,15 @@
 
 如果你无法访问 kaggle 的网站，可以通过[百度云](https://pan.baidu.com/s/1BvFjIDkwFgM7B5vvzK3EsA)上进行下载
 
-数据下载完成之后，将本仓库下载到本地，在主目录中创建一个`dataset` 的文件夹，然后将下载文件中的 `imgs.zip` 和 `driver_imgs_list.csv.zip` 放到dataset 中
+数据下载完成之后，将本仓库下载到本地，将 `imgs.zip` 和 `driver_imgs_list.csv.zip` 放在仓库的主目录中
 
-### Mac和Linux用户
-
-打开终端，进入到仓库目录，运行bash脚本
+打开终端，进入到仓库目录，运行 Python 脚本
 
 ```bash
-bash get_data.sh
+python get_data.py
 ```
 
-
-
-### Windows 用户
-
-TODO
-
-
+**上面的数据解压和重新排列可能会需要一点时间**
 
 通过上面的过程，我们准备好了数据，如果你已经根据 [StartKit](https://github.com/sharedeeply/DeepLearning-StartKit) 配置好了深度学习环境， 那么你可以直接进入 distracted_driver_detection.ipynb 完成项目，否则你需要根据 StartKit 配置你的深度学习环境。
 

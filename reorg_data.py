@@ -31,10 +31,3 @@ def reorg_data(train_dir, valid_dir, valid_ratio):
             shutil.move(
                 os.path.join(train_dir, cls, every_idx),
                 os.path.join(valid_dir, cls, every_idx))
-
-
-if __name__ == '__main__':
-    reorg_data(
-        train_dir='./dataset/train',
-        valid_dir='./dataset/valid',
-        valid_ratio=0.1)
