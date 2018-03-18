@@ -41,7 +41,7 @@ python get_data.py
 
 **上面的数据解压和重新排列可能会需要一点时间**
 
-通过上面的过程，我们准备好了数据，如果你已经根据 [StartKit](https://github.com/sharedeeply/DeepLearning-StartKit) 配置好了深度学习环境， 那么你可以直接进入 distracted_driver_detection.ipynb 完成项目，否则你需要根据 StartKit 配置你的深度学习环境。
+通过上面的过程，我们准备好了数据，如果你已经根据 [StartKit](https://github.com/sharedeeply/DeepLearning-StartKit) 配置好了深度学习环境， 那么你可以直接进入 `distracted_driver_detection.ipynb` 完成项目，否则你需要根据 StartKit 配置你的深度学习环境。
 
 
 
@@ -53,7 +53,7 @@ notebook 中已经有了完整的项目指南，你也可以使用本章我们�
 
 ## 评估与提交
 
-通过 distracted_driver_detection.ipynb，你能够创建一个可以提交的csv文件，将这个文件提交到 kaggle 中获取分数，这个分数作为我们的评估结果。同时你还需要提交
+通过 `distracted_driver_detection.ipynb`，你能够创建一个可以提交的csv文件，将这个文件提交到 kaggle 中获取分数，这个分数作为我们的评估结果。同时你还需要提交
 
 - kaggle 上提交分数的截图
 
@@ -62,5 +62,5 @@ notebook 中已经有了完整的项目指南，你也可以使用本章我们�
 - 完整的 notebook 代码文件
 - notebook 导出的 html 文件
 
-可以考虑在 Github 上为该项目创建一个仓库，记录训练的过程、所使用的库以及数据等的 README 文档，构建一个完善的 Github 简历
+可以考虑在 Github 上为该项目创建一个仓库，记录训练的过程、所使用的库以及数据等的 README 文档，构建一个完善的 Github 简历。
 
