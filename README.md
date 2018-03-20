@@ -58,7 +58,6 @@ notebook 中已经有了完整的项目指南，你也可以使用本章我们�
 - kaggle 上提交分数的截图
 
 
-- PDF 的报告文件
 - 完整的 notebook 代码文件
 - notebook 导出的 html 文件
 

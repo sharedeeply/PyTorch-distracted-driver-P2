@@ -11,7 +11,8 @@ def un_zip(file_name):
 
 
 if __name__ == '__main__':
-    os.mkdir('./dataset')
+    if not os.path.exists('./dataset'):
+        os.mkdir('./dataset')
     un_zip('./driver_imgs_list.csv.zip')
     print('driver_imgs_list unzip finished.')
     un_zip('./imgs.zip')
